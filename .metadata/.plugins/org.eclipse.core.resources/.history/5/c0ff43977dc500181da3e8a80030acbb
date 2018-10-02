@@ -1,0 +1,14 @@
+
+public class InversionMain {
+
+	public static void main (String[] args) {
+		
+		public Funktion f = new Funktion("x+1");
+		public suchAlgorithmus s = new suchAlgorithmus(f);
+		
+		f = new 
+		
+		
+	}
+	
+}

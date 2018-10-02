@@ -1,0 +1,17 @@
+
+public class Gauss extends Funktion{
+
+	
+	public Gauss(String funktion) {
+		super(funktion);
+	}
+	
+	public float execute(float x) {
+		// y- Berechnung punktuell
+		return 0;
+	}
+	
+	
+	
+
+}

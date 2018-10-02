@@ -1,0 +1,9 @@
+
+public interface function {
+
+	public float x = 0;
+	public float y;
+	
+	public String toString();
+	
+}

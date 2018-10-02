@@ -1,0 +1,14 @@
+
+public class InversionMain {
+
+	public static void main (String[] args) {
+		
+		public Funktion func = new Gauss("x+1");
+		public SuchAlgorithmus s = new SuchAlgorithmus(f);
+		
+		f = new 
+		
+		
+	}
+	
+}

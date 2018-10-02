@@ -1,0 +1,9 @@
+
+public class Schwarmverfahren extends SuchAlgorithmus {
+
+	public Schwarmverfahren(Funktion f) {
+		super(f);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,15 @@
+
+public abstract class Funktion {
+
+	private float x;
+	private String output;
+	
+	public Funktion(String f) {
+		this.output= f;
+	}
+	
+	public String FunktionAusgabe() {
+		return output;
+	}
+	
+}

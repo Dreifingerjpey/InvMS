@@ -1,0 +1,8 @@
+
+public class Schwarmverfahren extends SuchAlgorithmus {
+
+	public Schwarmverfahren(Funktion f) {
+		super(f);
+	}
+
+}

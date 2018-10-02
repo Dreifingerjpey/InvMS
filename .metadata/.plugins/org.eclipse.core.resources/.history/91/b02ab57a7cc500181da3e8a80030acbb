@@ -1,0 +1,9 @@
+
+public interface funktion {
+
+	
+	
+	public String Name();
+	public String Funktion();
+	
+}

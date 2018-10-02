@@ -1,0 +1,9 @@
+
+public class Gauss extends Funktion{
+
+	public Gauss(String funktion) {
+		super(funktion);
+		
+	}
+
+}

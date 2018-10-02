@@ -1,0 +1,7 @@
+
+public class Intervall {
+
+	
+	public Intervall(float lGrenze,float rGrenze)
+	
+}

@@ -1,0 +1,12 @@
+
+public class Gauss extends Funktion{
+
+	private float y = 0; // hier die funktion reinschmeiﬂen
+	
+	public Gauss(String funktion) {
+		super(funktion);
+		
+	}
+	
+
+}

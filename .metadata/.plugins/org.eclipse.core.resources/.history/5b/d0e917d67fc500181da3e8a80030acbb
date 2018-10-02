@@ -1,0 +1,17 @@
+
+public class InversionMain {
+
+	public static void main (String[] args) {
+		
+		 Funktion f = new Gauss("x+1");
+		 SuchAlgorithmus s = new Schwarmverfahren();
+		
+		 Intervall Ergebnis=s.execute();
+
+		
+		
+	}
+	
+	
+	
+}

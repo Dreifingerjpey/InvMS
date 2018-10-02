@@ -1,0 +1,7 @@
+
+public class Ergebnis {
+
+	public Intervall i;
+	public float Sicherheit;
+	
+}

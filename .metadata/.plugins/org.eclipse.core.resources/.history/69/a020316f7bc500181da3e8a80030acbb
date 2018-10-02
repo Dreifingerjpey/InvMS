@@ -1,0 +1,8 @@
+
+public interface function {
+
+	public float x;
+	
+	
+	
+}

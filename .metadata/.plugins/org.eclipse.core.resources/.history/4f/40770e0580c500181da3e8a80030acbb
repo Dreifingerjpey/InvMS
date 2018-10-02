@@ -1,0 +1,12 @@
+
+public abstract class SuchAlgorithmus {
+
+	public Funktion f;
+	public abstract Intervall execute();
+	
+	public void ausgabe(Intervall i) {
+		
+		System.out.println("Das Minimum wird im Intervall "+i.toString()+" vermutet");
+	
+	}
+}

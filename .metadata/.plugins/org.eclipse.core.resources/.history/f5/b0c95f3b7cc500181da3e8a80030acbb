@@ -1,0 +1,12 @@
+
+public interface funktion {
+
+	public float x;
+	public float y;
+	
+	public function function(String y);
+	public String toString() {
+		return "f("+x+")"+" = "+ y.toString();
+	}
+	
+}

@@ -1,0 +1,13 @@
+
+public class Schwarmverfahren extends SuchAlgorithmus {
+
+	public Intervall execute() {
+		
+		Intervall ergebnis;
+		
+		// Implementierung
+		
+		return super.ausgabe(ergebnis);
+	}
+
+}

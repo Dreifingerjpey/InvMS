@@ -1,0 +1,14 @@
+
+public class InversionMain {
+
+	public static void main (String[] args) {
+		
+		 Funktion f 		 =	new Gauss("x+1");
+		 SuchAlgorithmus s	 =	new Schwarmverfahren();
+		 Ergebnis ergebnis  =	s.execute();
+		 
+		 System.out.println("Für die Funktion: "+f.toString()+" wurde Berechnet:\bn"ergebnis.toString());
+		
+	}
+	
+}

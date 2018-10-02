@@ -1,0 +1,16 @@
+
+public class Schwarmverfahren extends SuchAlgorithmus {
+
+	public Schwarmverfahren(Funktion f) {
+		super(f);
+	}
+
+	
+	public Intervall execute() {
+		
+		// Implementierung
+		
+		return new Intervall(0,0);
+	}
+
+}

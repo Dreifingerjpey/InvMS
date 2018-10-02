@@ -1,0 +1,16 @@
+
+public abstract class SuchAlgorithmus {
+
+	public Funktion f;
+	private float lGrenze;
+	private float rGrenze;
+	
+	
+	
+	public SuchAlgorithmus(Funktion f) {
+		this.f=f;
+	}
+	
+	public abstract void execute();
+	
+}

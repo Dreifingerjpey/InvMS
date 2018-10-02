@@ -1,0 +1,18 @@
+
+public class Ergebnis {
+
+	private Intervall i;
+	private float Sicherheit;
+	private int iterationen;
+	private float Laufzeit;
+	
+	public Ergebnis() {
+		this.i = i;
+	}
+	
+public static void ausgabe(Intervall i) {
+		
+		System.out.println("Das Minimum wird im Intervall "+i.toString()+" vermutet");
+	
+	}
+}
