@@ -1,0 +1,19 @@
+package Funktionen;
+
+public abstract class Funktion {
+
+	private float p;
+	
+	private String output;
+	
+	public Funktion(String funktion) {
+		this.output= funktion;
+	}
+	
+	public abstract float execute();
+	
+	public String toString() {
+		return output;
+	}
+	
+}

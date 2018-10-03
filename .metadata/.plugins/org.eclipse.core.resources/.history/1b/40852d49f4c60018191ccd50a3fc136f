@@ -1,0 +1,19 @@
+package Funktionen;
+public class Gauss extends Funktion{
+
+	
+	public Gauss(String funktion) {
+		super(funktion);
+	}
+	
+
+	@Override
+	public float execute() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+	
+
+}

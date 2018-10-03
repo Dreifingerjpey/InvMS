@@ -1,0 +1,24 @@
+package Main;
+import Funktionen.Funktion;
+import Funktionen.Gauss;
+import Suchfunktionen.Schwarmverfahren;
+import Suchfunktionen.SuchAlgorithmus;
+
+
+public class InversionMain {
+
+	public static void main (String[] args) {
+
+		
+		 String funktion = "Gauss";
+		 System.out.println(r.nextFloat());
+		 
+		 //Funktion f 		 =	new Gauss(funktion);
+		 //SuchAlgorithmus s	 =	new Schwarmverfahren();
+		 //Ergebnis ergebnis  =	s.execute();
+		 
+		 //System.out.println("Für die Funktion: "+f.toString()+" wurde Berechnet:\n"+ergebnis.toString());
+		
+	}
+	
+}

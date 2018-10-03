@@ -1,0 +1,15 @@
+package Tools;
+import java.security.SecureRandom;
+
+public class RandomFloatGenerator {
+
+	SecureRandom sr = new SecureRandom();
+public float nextFloat(){
+		
+		return sr.nextFloat();
+		
+		
+	}
+	
+	
+}

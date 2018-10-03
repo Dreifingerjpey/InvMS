@@ -1,0 +1,13 @@
+package Main;
+import org.random.rjgodoy.trng.*;;
+
+
+
+public class test {
+
+	public static void main(String args[]) {
+			MH_SecureRandom g = new MH_SecureRandom;
+			g.nextFloat();
+	}
+	
+}

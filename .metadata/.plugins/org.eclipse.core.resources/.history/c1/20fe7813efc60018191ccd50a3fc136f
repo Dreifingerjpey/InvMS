@@ -1,0 +1,24 @@
+package Main;
+import java.security.NoSuchAlgorithmException;
+import java.security.NoSuchProviderException;
+
+import org.random.rjgodoy.trng.*;;
+
+
+
+public class test {
+
+	public static void main(String args[]) {
+			MH_SecureRandom g;
+			try {
+				g = new MH_SecureRandom();
+				System.out.println(g.nextFloat());
+			} catch (NoSuchAlgorithmException e) {
+				e.printStackTrace();
+			} catch (NoSuchProviderException e) {
+				e.printStackTrace();
+			}
+			
+	}
+	
+}

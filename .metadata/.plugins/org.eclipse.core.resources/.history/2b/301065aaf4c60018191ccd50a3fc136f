@@ -1,0 +1,18 @@
+package Funktionen;
+
+public class Poisson extends Funktion{
+
+	private float lambda;
+	
+	public Poisson(String funktion,float lambda,String operator) {
+		super(funktion);
+	    this.lambda = lambda;
+		// TODO Auto-generated constructor stub
+	}
+
+	public float execute() {
+		
+		return 0;
+	}
+
+}

@@ -1,0 +1,36 @@
+package Funktionen;
+
+public class Poisson extends Funktion{
+
+	private float lambda;
+	
+	public Poisson(String funktion,float lambda) {
+		super(funktion);
+	    this.lambda = lambda;
+		// TODO Auto-generated constructor stub
+	}
+
+	public float execute(String operator,int count) {
+		
+		switch(operator) {
+		case "=": super.p = equal(count);
+				  break;
+		case "<": super.p = smaller(count);
+				  break;
+		case ">": super.p = bigger(count);
+				  break;
+		case "<=":super.p = smaller(count) + equal(count);
+				  break;
+		case ">=":super.p = bigger(count) + equal(count);
+		  		  break;
+			
+		}
+	}
+
+	private float equal(int i) {
+		
+		return (Math.pow(lambda,
+		
+	}
+
+}
